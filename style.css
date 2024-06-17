@@ -1,6 +1,11 @@
 body {
-    margin: 20px;
+    margin: 40px 15px;
     font-family: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.submain {
+	max-width: 900px;
+	margin: 0 auto;
 }
   
 hr {
