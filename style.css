@@ -27,6 +27,69 @@ figure {
 	text-align: center;
 }
 
+.cover-representation {
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+    margin: 20px 0px;
+  	row-gap: 20px;
+  	column-gap: 2%;
+}
+
+.cover-image {
+  	width: 48%;
+  	min-width: 300px;
+	border-radius: 8px;
+  	margin: 0;
+}
+
+.cover-image img {
+  	width: 100%;
+  	border-radius: inherit;
+}
+
+.logo-image {
+	min-width: 60px;
+}
+
+.image-text-card {
+	display: flex;
+  	column-gap: 5px;
+  	margin-bottom: 10px
+}
+
+.submain {
+	max-width: 900px;
+	margin: 0 auto;
+}
+  
+hr {
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    padding: 0;
+    margin: 30px 0px 20px 0px;
+    border: 0;
+}
+
+figure {
+  	display: flex;
+    flex-direction: column;
+  	row-gap: 5px;
+  	align-items: center;
+	text-align: center;
+}
+
+a {
+	color: #100F0F;
+}
+
+a:hover {
+	color: #24837B;
+}
+
 .logo-image {
 	min-width: 60px;
 }
