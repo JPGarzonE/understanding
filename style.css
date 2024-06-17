@@ -1,5 +1,7 @@
 body {
     margin: 40px 15px;
+    background-color: #FFFCF0;
+    color: #100F0F;
     font-family: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
 }
 
@@ -46,6 +48,12 @@ figure {
 .cover-image img {
   	width: 100%;
   	border-radius: inherit;
+}
+
+.cover-video-embryo {
+    width: auto;
+    background: black;
+    padding: 2%;
 }
 
 .logo-image {
