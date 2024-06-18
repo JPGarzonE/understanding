@@ -1,8 +1,13 @@
 body {
-    margin: 40px 15px;
-    background-color: #FFFCF0;
-    color: #100F0F;
+	margin: 40px 15px 80px 15px;
     font-family: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: calc(1rem + 0.1vw);
+    color: #100F0F;
+    background-color: #FFFCF0;
+}
+
+p {
+	margin-block: 1.5em;
 }
 
 .submain {
@@ -109,4 +114,16 @@ a:hover {
 	display: flex;
   	column-gap: 5px;
   	margin-bottom: 10px
+}
+
+.ad-astra {
+	font-style: italic;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	row-gap: 10px;
+	margin-block: 30px;
 }
