@@ -7,7 +7,7 @@ body {
 }
 
 p {
-	margin-block: 1.5em;
+	margin: 0;
 }
 
 .submain {
@@ -96,6 +96,7 @@ figure {
   	row-gap: 5px;
   	align-items: center;
 	text-align: center;
+	margin: 0;
 }
 
 a {
@@ -110,10 +111,16 @@ a:hover {
 	min-width: 60px;
 }
 
+.trajectory {
+	display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
 .image-text-card {
 	display: flex;
-  	column-gap: 5px;
-  	margin-bottom: 10px
+	column-gap: 45px;
+  	margin-bottom: 10px;
 }
 
 .ad-astra {
