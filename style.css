@@ -4,6 +4,7 @@ body {
     font-size: calc(1rem + 0.1vw);
     color: #100F0F;
     background-color: #FFFCF0;
+	line-height: 1.2;
 }
 
 p {
@@ -42,7 +43,7 @@ figure {
 	display: flex;
   	justify-content: center;
   	flex-wrap: wrap;
-    margin: 20px 0px;
+    margin: 25px 0px;
   	row-gap: 20px;
   	column-gap: 2%;
 }
