@@ -74,7 +74,7 @@ figure {
 
 .image-text-card {
 	display: flex;
-  	column-gap: 5px;
+  	column-gap: min(4.6875vw, 40px);
   	margin-bottom: 10px
 }
   
@@ -114,6 +114,7 @@ a:hover {
 	display: flex;
     flex-direction: column;
     row-gap: 40px;
+	padding-top: min(3.125vw, 20px);
 }
 
 .image-text-card {
