@@ -78,6 +78,10 @@ figure {
 	max-width: 900px;
 	margin: 0 auto;
 }
+
+.overview p {
+	margin-block: 1em;
+}
   
 hr {
     height: 1px;
