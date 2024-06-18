@@ -14,6 +14,10 @@ p {
 	max-width: 900px;
 	margin: 0 auto;
 }
+
+.overview p {
+	margin-block: 1em;
+}
   
 hr {
     height: 1px;
@@ -72,15 +76,6 @@ figure {
 	display: flex;
   	column-gap: 5px;
   	margin-bottom: 10px
-}
-
-.submain {
-	max-width: 900px;
-	margin: 0 auto;
-}
-
-.overview p {
-	margin-block: 1em;
 }
   
 hr {
