@@ -38,11 +38,14 @@ figure {
   	column-gap: 2%;
 }
 
+.cover-representation figure {
+	border-radius: 8px;
+	margin: 0;
+}
+
 .cover-image {
   	width: 48%;
   	min-width: 300px;
-	border-radius: 8px;
-  	margin: 0;
 }
 
 .cover-image img {
@@ -51,8 +54,8 @@ figure {
 }
 
 .cover-video-embryo {
-    width: auto;
-    background: black;
+	background: black;
+	margin: 0;
     padding: 2%;
 }
 
